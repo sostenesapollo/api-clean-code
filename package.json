@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "npx husky install"
   },
   "lint-staged": {
@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^27.1.0",
     "lint-staged": "^11.1.2",
     "standard": "^16.0.3"
   }
