@@ -8,7 +8,9 @@
     "test:staged": "jest --watchAll"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "keywords": [],
   "author": "",
