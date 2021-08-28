@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "prepare": "npx husky install"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
