@@ -3,3 +3,4 @@ function asd () {
 }
 
 asd()
+asd()
