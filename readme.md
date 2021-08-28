@@ -20,6 +20,8 @@
 ##### Status Code
 - 400 -> Bad Request
 - 200 -> OK
+- 401 -> Unauthorized -> User not found in database
+- 403 -> Forbidden -> User not allowed to access this resource
 
 ##### SUT -> System Under Test
 ## Tests
