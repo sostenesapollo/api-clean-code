@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1630353096122" clover="3.2.0">
+  <project timestamp="1630353096122" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10" elements="55" coveredelements="55" complexity="0" loc="37" ncloc="37" packages="2" files="6" classes="6"/>
+    <package name="helpers">
+      <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="http-response.js" path="/home/sostenes/dev/research/clean-code-api/src/presentation/helpers/http-response.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+      </file>
+      <file name="invalid-param-error.js" path="/home/sostenes/dev/research/clean-code-api/src/presentation/helpers/invalid-param-error.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="missing-param-error.js" path="/home/sostenes/dev/research/clean-code-api/src/presentation/helpers/missing-param-error.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="server-error.js" path="/home/sostenes/dev/research/clean-code-api/src/presentation/helpers/server-error.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+      </file>
+      <file name="unauthorized-error.js" path="/home/sostenes/dev/research/clean-code-api/src/presentation/helpers/unauthorized-error.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="routers">
+      <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="login-router.js" path="/home/sostenes/dev/research/clean-code-api/src/presentation/routers/login-router.js">
+        <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="15" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="11" count="15" type="stmt"/>
+        <line num="12" count="15" type="stmt"/>
+        <line num="13" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
