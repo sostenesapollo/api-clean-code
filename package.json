@@ -10,7 +10,6 @@
     "test:staged": "npm test",
     "test:ci": "npm test -- --coverage"
   },
-   
   "standard": {
     "env": [
       "jest"
@@ -23,5 +22,8 @@
     "jest": "^27.1.0",
     "lint-staged": "^11.1.2",
     "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "validator": "^13.6.0"
   }
 }
