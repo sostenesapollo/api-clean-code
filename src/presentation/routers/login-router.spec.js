@@ -1,5 +1,6 @@
 const LoginRouter = require('./login-router')
-const { MissingParamError, InvalidParamError, ServerError } = require('../errors')
+const { MissingParamError, InvalidParamError } = require('../utils/errors')
+const { ServerError } = require('../errors')
 
 const makeSut = () => {
   const authUseCaseSpy = makeAuthUseCase()
@@ -77,6 +78,7 @@ describe('Login Router', () => {
     const httpResponse = await sut.route()
     expect(httpResponse.statusCode).toBe(500)
     expect(httpResponse.body).toEqual(new ServerError())
+    expect(httpResponse.body).toEqual(new ServerError())
   })
 
   test('should return 500 if httpRequest has no body', async () => {
@@ -84,6 +86,7 @@ describe('Login Router', () => {
     const httpRequest = {}
     const httpResponse = await sut.route(httpRequest)
     expect(httpResponse.statusCode).toBe(500)
+    expect(httpResponse.body).toEqual(new ServerError())
     expect(httpResponse.body).toEqual(new ServerError())
   })
 
@@ -137,6 +140,7 @@ describe('Login Router', () => {
     const httpResponse = await sut.route(httpRequest)
     expect(httpResponse.statusCode).toBe(500)
     expect(httpResponse.body).toEqual(new ServerError())
+    expect(httpResponse.body).toEqual(new ServerError())
   })
 
   test('should return 500 if AuthUseCase has no auth method', async () => {
@@ -150,6 +154,7 @@ describe('Login Router', () => {
     }
     const httpResponse = await sut.route(httpRequest)
     expect(httpResponse.statusCode).toBe(500)
+    expect(httpResponse.body).toEqual(new ServerError())
     expect(httpResponse.body).toEqual(new ServerError())
   })
 
